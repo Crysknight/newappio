@@ -1,0 +1,109 @@
+.quantity {
+	font-size: 22px;
+	padding: 15px 0;
+	font-weight: bold;
+}
+
+.quantity > div {
+	display: inline-block;
+	width: 50%;
+	vertical-align: top;
+}
+
+.quantity > div:first-of-type {
+	text-align: right;
+}
+
+.quantity > div:nth-of-type(2) {
+	text-align: left;
+}
+
+.quantity .animalsnameInput {
+	display: inline-block;
+	width: 50%;
+	margin-left: 10px;
+	position: relative;
+}
+
+.animalsnameInput > button {
+	position: absolute;
+	right: 2px;
+	top: 3.5px;
+	background-color: transparent;
+	border: none;
+}
+
+.animalsnameInput > button:focus {
+	border: none;
+	outline: none;
+}
+
+.quantity .qntNumber {
+	display: inline-block;
+	margin-right: 10px;
+}
+
+.choosename {
+	border: 2px solid #339;
+	width: 100%;
+	height: 40px;
+	text-align: left;
+	border-radius: 3px;
+}
+
+.choosename select {
+	border: none;
+	padding-left: 5px;
+	width: 94%;
+	height: 100%;
+	cursor: pointer;
+}
+
+.choosename select:focus {
+	border: none;
+	outline: none;
+}
+
+.choosename.insertname {
+	padding-left: 7px;
+	height: 140px;
+	width: 100%;
+	text-align: left;
+	font-size: 13px;
+	font-weight: normal;
+	line-height: 24px;
+	color: #000;
+	position: relative;
+}
+
+.choosename h5 {
+	font-weight: bold;
+}
+
+.choosename.insertname input {
+	display: inline-block;
+	height: 15px;
+	border: none;
+	border-bottom: 1px solid #000;
+}
+
+.choosename.insertname button {
+	background-color: #339;
+	border: none;
+	color: #fff;
+	text-shadow: 1px 0 0 #000, 0 1px 0 #000, -1px 0 #000, 0 -1px #000;
+	font-weight: bold;
+	display: inline-block;
+	position: absolute;
+	border-radius: 3px;
+	right: 5px;
+	bottom: 5px;
+}
+
+.inputbutton > button {
+	transform: rotate3d(0, 0, 1, 45deg);
+}
+
+.choosename.insertname button:focus {
+	outline: none;
+}
